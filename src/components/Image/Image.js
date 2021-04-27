@@ -4,6 +4,7 @@ import './Image.css';
 
 const image = props => (
   <div
+    alt={`${props.imageUrl}`}
     className="image"
     style={{
       backgroundImage: `url('${props.imageUrl}')`,
